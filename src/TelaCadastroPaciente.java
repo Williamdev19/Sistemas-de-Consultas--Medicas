@@ -10,7 +10,7 @@ public class TelaCadastroPaciente extends JFrame {
 
     public TelaCadastroPaciente(SistemaConsultas sistema) {
         super("Cadastro de Paciente");
-        this.sistema = sistema; // Agora está correto!
+        this.sistema = sistema; 
 
         setLayout(new BorderLayout());
         setSize(400, 300);
@@ -41,7 +41,7 @@ public class TelaCadastroPaciente extends JFrame {
             }
         });
 
-        painel.add(new JLabel()); // Espaço vazio
+        painel.add(new JLabel()); 
         painel.add(btnCadastrar);
 
         add(painel, BorderLayout.CENTER);
